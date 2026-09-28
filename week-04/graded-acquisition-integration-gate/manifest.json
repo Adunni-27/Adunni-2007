@@ -1,0 +1,27 @@
+{
+  "course": "AIDA 2362",
+  "week": 4,
+  "lab": "Week 4 Graded Lab 1",
+  "student": "OLUYINKA",
+  "decision": "conditional",
+  "input_files": [
+    "facilities.geojson",
+    "service_zones.geojson",
+    "source_inventory.csv",
+    "metadata.json",
+    "qgis-project.qgz"
+  ],
+  "outputs": [
+    "outputs/service_zones_valid.gpkg",
+    "outputs/service_zones_invalid.gpkg",
+    "outputs/service_zones_errors.gpkg",
+    "outputs/facilities_with_service_zones.gpkg",
+    "outputs/changed-variable-comparison.csv",
+    "outputs/text-table-equivalent.md",
+    "outputs/integration_result_map.pdf"
+  ],
+  "crs_and_units": "Source data use EPSG:4326 (WGS 84), with coordinates in degrees. EPSG:32612 is recommended for analysis requiring metres.",
+  "changed_variable": "Spatial predicate changed from within to intersect. Both produced 5 matched facilities, so the recommendation did not change.",
+  "privacy_and_governance_review": "The supplied data are fictional course data and contain no real personal or sensitive locations. Real-world use would require verified data authority, privacy review, community-impact consideration, and appropriate Indigenous data governance where applicable.",
+  "ai_assistance_declared": true
+}

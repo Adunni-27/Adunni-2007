@@ -1,0 +1,3 @@
+dataset,publisher,retrieval_date,licence,crs,geometry_type,feature_count,important_fields,stable_id,duplicate_ids,missing_geometry,missing_required_values,geographic_extent,time_limitation,scale_resolution,privacy_data_authority_limits,integration_decision
+facility_points,AIDA 2362,2026-08-13,CC0-1.0,EPSG:4326,Point,5,feature_id,feature_id,No,0,None reported,Fictional Alberta example,Instructional data only,Local scale,Fictional course data only,conditional
+legacy_access_paths,Not provided,Not provided,unknown,Not provided,Unknown,Unknown,Not provided,Not provided,Unknown,2,Unknown,Not provided,Not provided,Unknown,Source information is incomplete and data authority is not established,quarantine
